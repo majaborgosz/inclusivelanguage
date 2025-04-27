@@ -1,7 +1,7 @@
 ---
 title: Implementation guide
 layout: default
-parent: Safety Information
+parent: Inclusive Language 101
 nav_order: 4
 ---
 # Implementation guide
