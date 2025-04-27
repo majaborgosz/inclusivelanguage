@@ -1,7 +1,7 @@
 ---
 title: Non-inclusive language on GitHub
 layout: default
-parent: Safety Information
+parent: Inclusive Language 101
 nav_order: 3
 ---
 
