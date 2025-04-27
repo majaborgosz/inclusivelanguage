@@ -1,7 +1,7 @@
 ---
 title: Additional resources
 layout: default
-parent: Safety Information
+parent: Inclusive Language 101
 nav_order: 5
 ---
 # Additional resources
