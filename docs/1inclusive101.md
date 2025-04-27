@@ -32,7 +32,7 @@ It avoids making users feel excluded due to language that might be perceived as 
 
 Inclusive language is seen as a gesture of respect and empathy towards users, which can significantly enhance the user experience. It demonstrates that the organization values diversity and inclusion in its engagement with people.
 
-According to a report by the Linguistic Society of America, such practices align with promoting empowerment and reducing bias across communication.
+According to a report by the [Linguistic Society of America](https://www.lsadc.org/), such practices align with promoting empowerment and reducing bias across communication.
 
 ## Business impact
 
@@ -54,4 +54,4 @@ Companies portraying inclusivity are more attractive to a wider pool of talent, 
 
 ### Financial results
 
-While specific financial outcomes from using inclusive language in content are less frequently isolated, there is significant evidence linking diversity and inclusion with better business performance. McKinsey's 'Diversity Wins' report (2020) found that companies more ethically involved in diversity practices are more likely to see higher profits.
+While specific financial outcomes from using inclusive language in content are less frequently isolated, there is significant evidence linking diversity and inclusion with better business performance. [McKinsey's 'Diversity Wins' report](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/diversity-wins-how-inclusion-matters) (2020) found that companies more ethically involved in diversity practices are more likely to see higher profits.
