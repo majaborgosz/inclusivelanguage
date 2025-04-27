@@ -1,0 +1,70 @@
+---
+title: Non-inclusive language on GitHub
+layout: default
+parent: Safety Information
+nav_order: 3
+---
+
+# Non-inclusive language on GitHub
+
+This section provides real-world examples of non-inclusive terms found on GitHub to illustrate how inclusive language principles can be applied in practice. For each example, a more inclusive alternative will be suggested.
+
+## Master/slave
+
+While often used to describe a controlling element and a dependent element, these terms recall historical contexts of oppression.
+
+**What was found on GitHub:**
+
+> Guarantee of data consistency among cluster nodes: replacing loss-less semi-sync between MySQL **master** and MySQL **slaves** with Paxos, PhxSQL ensures zero-loss binlogs between **master and slaves** and supports linearizable consistency, which is as strong as that of Zookeeper.
+
+**A more inclusive option:**
+
+> Guarantee of data consistency among cluster nodes: replacing loss-less semi-sync between MySQL **primary** and MySQL **replicas** with Paxos, PhxSQL ensures zero-loss binlogs between **primary and replicas** and supports linearizable consistency, which is as strong as that of Zookeeper.
+
+**What was found on GitHub:**
+
+> The project consists steps for web application deployment on kubernetes cluster using jenkins dynamic **slave node**. The project is implemented on minikube i.e single node Kubernetes Cluster. It involves configuration of Cloud in Jenkins Server i.e dynamic **slave node**.
+
+**A more inclusive option:**
+
+> The project consists of steps for web application deployment on a Kubernetes cluster using Jenkins dynamic **agent node**. The project is implemented on Minikube, i.e., a single-node Kubernetes cluster. It involves configuration of Cloud in Jenkins Server, i.e., dynamic **agent node**.
+
+## Whitelist/blacklist
+
+While often used to describe the functionality of blocking or allowing certain items, these terms suggest negative things should be associated with 'black' and positive with 'white,' which can carry racial implications.
+
+**What was found on GitHub:**
+
+> In directory levels you can find preprocessed raw IP lists based on number of **blacklist** occurrences (e.g. levels/3.txt holds IP addresses that can be found on 3 or more **blacklists**).
+
+**A more inclusive option:**
+
+> In directory levels, you can find preprocessed raw IP lists based on the number of **blocklist** occurrences (e.g., levels/3.txt holds IP addresses that can be found on 3 or more **blocklists**).
+
+## Sanity check
+
+While often used to describe a quick mental overview, this term can reinforce the notion that individuals with mental health challenges are inferior or flawed.
+
+**What was found on GitHub:**
+
+> modelChecker is a python plug-in written for Autodesk Maya to **sanity check** digital polygon models. It is unopinionated, provides concise reporting, and lets you select your error nodes easily.
+
+**A more inclusive option:**
+
+> modelChecker is a python plug-in written for Autodesk Maya to **validation check** digital polygon models. It is unopinionated, provides concise reporting, and lets you select your error nodes easily.
+
+## Crippled
+
+While often used to describe software with limited functionality, this term is an ableist word that tends to be used with a negative connotation describing the disability.
+
+**What was found on GitHub:**
+
+> A sad truth is that most decompilers out there are **crippled**. Many aren't able to decompile trivial constructs, others can't decompile more advanced, those which seemingly can deal with them, are **crippled** by supporting only the boring architectures and OSes.
+
+**A more inclusive option:**
+
+> The unfortunate truth is that many decompilers are **limited in functionality**. Some cannot handle simple constructs, while others struggle with advanced ones. Decompilers that manage these complexities often **only support a narrow range** of architectures and operating systems.
+
+**Or you can go a step further and use plain language principles to improve the text even more:**
+
+> Many decompilers **aren't very functional**. Some fail with simple tasks, while others can't manage complex ones. Even those that can handle these tasks often **work only with a limited set** of computer architectures and operating systems.
