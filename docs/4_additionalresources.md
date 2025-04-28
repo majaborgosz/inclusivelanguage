@@ -1,8 +1,8 @@
 ---
 title: Additional resources
 layout: default
-parent: Inclusive Language 101
 nav_order: 5
+has_children: true
 ---
 # Additional resources
 
