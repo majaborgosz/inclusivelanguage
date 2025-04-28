@@ -1,14 +1,57 @@
-@import "./color_schemes/light";
-$body-background-color: #f0f6f9 !default;
-$body-heading-color: #333333 !default;
-$body-text-color: #444444 !default;
-$link-color: #007bff !default;
-$nav-child-link-color: #666666 !default;
-$sidebar-color: #f8f8f8 !default;
-$base-button-color: #e6e6e6 !default;
-$btn-primary-color: #28a745 !default;
-$code-background-color: #f2f2f2 !default;
-$feedback-color: #e0e0e0 !default;
-$table-background-color: #ffffff !default;
-$search-background-color: #ffffff !default;
-$search-result-preview-color: #333333 !default;
+:root {
+  --primary-color: #593196;
+  --secondary-color: #a7d1eb;
+  --accent-color: #f0ad4e;
+  --background-color: #f9f9f9;
+  --text-color: #333333;
+  --link-color: var(--primary-color);
+  --link-hover-color: #3d1e6d;
+  --button-primary-background: var(--secondary-color);
+  --button-primary-text: var(--text-color);
+  --button-primary-hover-background: #8bbddb;
+  --button-accent-background: var(--accent-color);
+  --button-accent-text: var(--text-color);
+  --button-accent-hover-background: #d89636;
+  --code-background: #e0f7fa;
+  --border-color: #cccccc;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+button.primary {
+  background-color: var(--button-primary-background);
+  color: var(--button-primary-text);
+}
+
+button.primary:hover {
+  background-color: var(--button-primary-hover-background);
+}
+
+button.accent {
+  background-color: var(--button-accent-background);
+  color: var(--button-accent-text);
+}
+
+button.accent:hover {
+  background-color: var(--button-accent-hover-background);
+}
+
+pre, code {
+  background-color: var(--code-background);
+  border: 1px solid var(--border-color);
+}
+
+hr {
+  border-color: var(--border-color);
+}
