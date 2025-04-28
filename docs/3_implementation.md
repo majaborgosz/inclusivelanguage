@@ -1,8 +1,8 @@
 ---
 title: Implementation guide
 layout: default
-parent: Inclusive Language 101
-nav_order: 4
+nav_order: 3
+has_children: true
 ---
 # Implementation guide
 
