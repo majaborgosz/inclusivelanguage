@@ -1,7 +1,6 @@
 ---
 title: Core principles of inclusive language
 layout: default
-parent: Inclusive Language 101
 nav_order: 2
 ---
 # Core principles of inclusive language
