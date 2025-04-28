@@ -1,8 +1,8 @@
 ---
 title: Additional resources
 layout: default
-parent: Safety Information
-nav_order: 5
+nav_order: 4
+has_children: true
 ---
 # Additional resources
 

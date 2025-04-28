@@ -1,8 +1,8 @@
 ---
 title: Core principles of inclusive language
 layout: default
-parent: Safety Information
 nav_order: 2
+has_children: true
 ---
 # Core principles of inclusive language
 

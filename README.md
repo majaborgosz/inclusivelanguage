@@ -4,12 +4,12 @@ A guide to understanding and implementing inclusive language in technical commun
 
 ## Table of Contents
 - [Definition of inclusive language](#definition-of-inclusive-language)
-- [Importance in technical communication](#importance-in-technical-communication)
+    - [Importance in technical communication](#importance-in-technical-communication)
 - [Core principles of inclusive language](#core-principles-of-inclusive-language)
-- [Non-inclusive language on GitHub](#non-inclusive-language-on-github)
+    - [Non-inclusive language on GitHub](#non-inclusive-language-on-github)
 - [Implementation guide](#implementation-guide)
-- [Common challenges and solutions in implementing inclusive language](#common-challenges-and-solutions-in-implementing-inclusive-language)
-- [Real life examples of implementation](#real-life-examples-of-implementation)
+    - [Common challenges and solutions in implementing inclusive language](#common-challenges-and-solutions-in-implementing-inclusive-language)
+    - [Real life examples of implementation](#real-life-examples-of-implementation)
 - [Additional resources](#additional-resources)
     - [W3C – Web Content Accessibility Guidelines (WCAG)](#w3c--web-content-accessibility-guidelines-wcag)
     - [The Conscious Style Guide](#the-conscious-style-guide)
