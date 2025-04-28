@@ -1,0 +1,27 @@
+---
+title: For writers
+layout: default
+parent: Implementation guide
+nav_order: 1
+---
+# For individuals writers
+
+## Audit
+
+Conduct a personal audit of your existing documentation to identify non-inclusive language. Tools like Grammarly and Textio can help spot potentially problematic language, allowing you to revise accordingly.
+
+## Self-education
+
+Engage in self-guided learning about inclusive language principles. This might include researching real-life examples or case studies to see the impact of language choices.
+
+## Practice through writing
+
+Use interactive online workshops or forums to practice language changes and understand their impact in a real-world context. Engaging in discussions can also enhance learning.
+
+## Develop personal guidelines
+
+Create a personal style guide that emphasizes inclusive language. This guide should include specific dos and don'ts tailored to your writing style and context.
+
+## Seek feedback
+
+Encourage feedback from peers or online writing communities. This can provide diverse perspectives on the inclusivity of your writing.
