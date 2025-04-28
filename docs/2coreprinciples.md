@@ -2,6 +2,7 @@
 title: Core principles of inclusive language
 layout: default
 nav_order: 2
+has_children: true
 ---
 # Core principles of inclusive language
 
