@@ -1,76 +1,76 @@
-// Typography
 $body-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
-$root-font-size: 16px; // Base font-size for rems
+$root-font-size: 16px;
 $body-line-height: 1.5;
 $content-line-height: 1.7;
 $body-heading-line-height: 1.3;
 
-// Font size
-// `-sm` suffix is the size at the small (and above) media query
-$font-size-1: 0.625rem; // 9px
-$font-size-1-sm: 0.625rem; // 10px
-$font-size-2: 0.6875rem; // 11px - h4 uppercased!, h6 not uppercased, text-small
-$font-size-3: 0.75rem; // 12px - h5
-$font-size-4: 0.875rem; // 14px
-$font-size-5: 1rem; // 16px - h3
-$font-size-6: 1.125rem; // 18px - h2
-$font-size-7: 1.5rem; // 24px
-$font-size-8: 2rem; // 32px - h1
-$font-size-9: 2.25rem; // 36px
-$font-size-10: 2.625rem; // 42px
-$font-size-10-sm: 3rem; // 48px
+$font-size-1: 0.625rem;
+$font-size-1-sm: 0.625rem;
+$font-size-2: 0.6875rem;
+$font-size-3: 0.75rem;
+$font-size-4: 0.875rem;
+$font-size-5: 1rem;
+$font-size-6: 1.125rem;
+$font-size-7: 1.5rem;
+$font-size-8: 2rem;
+$font-size-9: 2.25rem;
+$font-size-10: 2.625rem;
+$font-size-10-sm: 3rem;
 
-// Accessible Color Palette
-$primary-000: #3366CC; // A universally recognizable and accessible blue
-$primary-100: lighten($primary-000, 10%);
-$primary-200: darken($primary-000, 10%);
-$primary-300: darken($primary-000, 20%);
+$primary-000: #6495ED;
+$primary-100: lighten($primary-000, 15%);
+$primary-200: darken($primary-000, 15%);
+$primary-300: darken($primary-000, 30%);
 
-$secondary-000: #2E8B57; // A clear and distinct green
-$secondary-100: lighten($secondary-000, 10%);
-$secondary-200: darken($secondary-000, 10%);
-$secondary-300: darken($secondary-000, 20%);
+$secondary-000: #3CB371;
+$secondary-100: lighten($secondary-000, 15%);
+$secondary-200: darken($secondary-000, 15%);
+$secondary-300: darken($secondary-000, 30%);
 
-$neutral-lt-000: #F8F9FA; // Very light grey for backgrounds
-$neutral-lt-100: #E9ECEF; // Light grey for borders and subtle backgrounds
-$neutral-lt-200: #CED4DA; // Medium light grey for less prominent elements
-$neutral-lt-300: #ADB5BD; // Medium grey for secondary text
+$tertiary-000: #FFA07A;
+$tertiary-100: lighten($tertiary-000, 15%);
+$tertiary-200: darken($tertiary-000, 15%);
+$tertiary-300: darken($tertiary-000, 30%);
 
-$neutral-dk-000: #343A40; // Dark grey for primary text
-$neutral-dk-100: #495057;
-$neutral-dk-200: #6C757D;
-$neutral-dk-300: #212529; // Very dark grey for emphasis
+$neutral-lt-000: #F0F8FF;
+$neutral-lt-100: #E0FFFF;
+$neutral-lt-200: #ADD8E6;
+$neutral-lt-300: #87CEEB;
 
-$accent-000: #FFC107; // A vibrant and accessible yellow for highlights
-$accent-100: lighten($accent-000, 10%);
-$accent-200: darken($accent-000, 10%);
-$accent-300: darken($accent-000, 20%);
+$neutral-dk-000: #36454F;
+$neutral-dk-100: #4A5A64;
+$neutral-dk-200: #62727B;
+$neutral-dk-300: #2E3840;
 
-$error-000: #DC3545; // A clear and recognizable red for errors
-$error-100: lighten($error-000, 10%);
-$error-200: darken($error-000, 10%);
-$error-300: darken($error-000, 20%);
+$accent-000: #FFD700;
+$accent-100: lighten($accent-000, 15%);
+$accent-200: darken($accent-000, 15%);
+$accent-300: darken($accent-000, 30%);
 
-$warning-000: #FF8C00; // A distinct orange for warnings
-$warning-100: lighten($warning-000, 10%);
-$warning-200: darken($warning-000, 10%);
-$warning-300: darken($warning-000, 20%);
+$error-000: #FF6347;
+$error-100: lighten($error-000, 15%);
+$error-200: darken($error-000, 15%);
+$error-300: darken($error-000, 30%);
 
-$success-000: #28A745; // A clear and positive green for success messages
-$success-100: lighten($success-000, 10%);
-$success-200: darken($success-000, 10%);
-$success-300: darken($success-000, 20%);
+$warning-000: #FF8C00;
+$warning-100: lighten($warning-000, 15%);
+$warning-200: darken($warning-000, 15%);
+$warning-300: darken($warning-000, 30%);
+
+$success-000: #32CD32;
+$success-100: lighten($success-000, 15%);
+$success-200: darken($success-000, 15%);
+$success-300: darken($success-000, 30%);
 
 $white: #fff;
 
-// Contextual Colors - Using the accessible palette
 $body-background-color: $neutral-lt-000;
 $sidebar-color: $neutral-lt-100;
 $search-background-color: $white;
 $table-background-color: $white;
 $code-background-color: $neutral-lt-100;
-$feedback-color: darken($sidebar-color, 5%);
+$feedback-color: darken($sidebar-color, 10%);
 
 $body-text-color: $neutral-dk-000;
 $body-heading-color: $neutral-dk-300;
@@ -80,8 +80,7 @@ $link-color: $primary-000;
 $btn-primary-color: $primary-300;
 $base-button-color: $neutral-lt-200;
 
-// Spacing
-$spacing-unit: 1rem; // 1rem == 16px
+$spacing-unit: 1rem;
 
 $spacers: (
   sp-0: 0,
@@ -97,40 +96,37 @@ $spacers: (
   sp-10: $spacing-unit * 4,
 );
 
-$sp-1: map-get($spacers, sp-1); // 0.25 rem == 4px
-$sp-2: map-get($spacers, sp-2); // 0.5  rem == 8px
-$sp-3: map-get($spacers, sp-3); // 0.75 rem == 12px
-$sp-4: map-get($spacers, sp-4); // 1    rem == 16px
-$sp-5: map-get($spacers, sp-5); // 1.5  rem == 24px
-$sp-6: map-get($spacers, sp-6); // 2    rem == 32px
-$sp-7: map-get($spacers, sp-7); // 2.5  rem == 40px
-$sp-8: map-get($spacers, sp-8); // 3    rem == 48px
-$sp-9: map-get($spacers, sp-9); // 3.5  rem == 56px
-$sp-10: map-get($spacers, sp-10); // 4  rem == 64px
+$sp-1: map-get($spacers, sp-1);
+$sp-2: map-get($spacers, sp-2);
+$sp-3: map-get($spacers, sp-3);
+$sp-4: map-get($spacers, sp-4);
+$sp-5: map-get($spacers, sp-5);
+$sp-6: map-get($spacers, sp-6);
+$sp-7: map-get($spacers, sp-7);
+$sp-8: map-get($spacers, sp-8);
+$sp-9: map-get($spacers, sp-9);
+$sp-10: map-get($spacers, sp-10);
 
-// Borders
 $border: 1px solid;
-$border-radius: 0.25rem; // Using rem for consistency
+$border-radius: 0.25rem;
 $border-color: $neutral-lt-100;
 
-// Grid system
 $gutter-spacing: $sp-6;
 $gutter-spacing-sm: $sp-4;
-$nav-width: 16.5rem; // 264px
-$nav-width-md: 15.5rem; // 248px
+$nav-width: 16.5rem;
+$nav-width-md: 15.5rem;
 $nav-list-item-height: $sp-6;
 $nav-list-item-height-sm: $sp-8;
 $nav-list-expander-right: true;
-$content-width: 50rem; // 800px
-$header-height: 3.75rem; // 60px
+$content-width: 50rem;
+$header-height: 3.75rem;
 $search-results-width: $content-width - $nav-width;
 $transition-duration: 400ms;
 
-// Media queries in ems for better accessibility
 $media-queries: (
-  xs: 20em, // 320px
-  sm: 31.25em, // 500px
-  md: 50em, // 800px
-  lg: 66.5em, // 1064px
-  xl: 87.5em, // 1400px
+  xs: 20em,
+  sm: 31.25em,
+  md: 50em,
+  lg: 66.5em,
+  xl: 87.5em,
 );
