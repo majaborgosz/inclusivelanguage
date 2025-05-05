@@ -1,3 +1,9 @@
+@use 'variables'; 
+
+$body-background-color: $primary-000 !default;
+$sidebar-color: variables.$primary-300;
+$body-text-color: $neutral-lt-000 !default;
+
 $body-background-color: $primary-000 !default; 
 $sidebar-color: $primary-300; 
 $body-text-color: $neutral-lt-000 !default; 
