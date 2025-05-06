@@ -6,3 +6,7 @@ url: https://majaborgosz.github.io/inclusivelanguage
 aux_links: 
   Project Repository: https://github.com/majaborgosz/inclusivelanguage
 color_scheme: colorscheme
+
+sass:
+  custom_css:
+_sass/custom/custom.scss
