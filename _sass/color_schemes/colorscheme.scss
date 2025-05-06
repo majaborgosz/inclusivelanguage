@@ -77,9 +77,9 @@ $body-text-color: $neutral-dk-000;
 $body-heading-color: $neutral-dk-300;
 $search-result-preview-color: $neutral-dk-000;
 $nav-child-link-color: $neutral-dk-000;
-$link-color: #4a90e2; 
-$link-hover-color: darken($link-color, 10%); 
-$link-active-color: darken($link-color, 20%); 
+$link-color: #60557e !default;
+$link-hover-color: darken(#60557e, 10%) !default;
+$link-active-color: darken(#60557e, 20%) !default;
 $btn-primary-color: $primary-300;
 $base-button-color: $neutral-lt-200;
 
