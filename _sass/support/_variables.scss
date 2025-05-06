@@ -113,3 +113,7 @@ $media-queries: (
 ) !default;
 
 $base-button-color: #007bff !default;
+$link-color: #5f7e92; 
+$link-hover-color: lighten($link-color, 10%); 
+$link-active-color: darken($link-color, 10%);
+
