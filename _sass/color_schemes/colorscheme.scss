@@ -18,59 +18,67 @@ $font-size-9: 2.25rem;
 $font-size-10: 2.625rem;
 $font-size-10-sm: 3rem;
 
-// Colors
-$primary-000: #95c6e0;
-$primary-100: #b7daed;
-$primary-200: #d6edfa;
-$primary-300: lighten($primary-200, 5%);
+$primary-000: #6495ED;
+$primary-100: lighten($primary-000, 15%);
+$primary-200: darken($primary-000, 15%);
+$primary-300: darken($primary-000, 30%);
 
-$secondary-000: #fcc5b9;
-$secondary-100: #fdd7ce;
-$secondary-200: lighten($secondary-100, 5%);
-$secondary-300: lighten($secondary-100, 10%);
+$secondary-000: #3CB371;
+$secondary-100: lighten($secondary-000, 15%);
+$secondary-200: darken($secondary-000, 15%);
+$secondary-300: darken($secondary-000, 30%);
 
-$tertiary-000: #718096;
-$tertiary-100: #a0aec0;
-$tertiary-200: #cbd5e0;
-$tertiary-300: #e2e8f0;
+$tertiary-000: #FFA07A;
+$tertiary-100: lighten($tertiary-000, 15%);
+$tertiary-200: darken($tertiary-000, 15%);
+$tertiary-300: darken($tertiary-000, 30%);
 
-$accent-000: #2c7a7b;
-$accent-100: #38b2ac;
-$accent-200: #4fd1c5;
-$accent-300: #81e6d9;
+$neutral-lt-000: #F0F8FF;
+$neutral-lt-100: #E0FFFF;
+$neutral-lt-200: #ADD8E6;
+$neutral-lt-300: #87CEEB;
 
-$error-000: #c53030;
-$error-100: #e53e3e;
-$error-200: #f56565;
-$error-300: #fc8181;
+$neutral-dk-000: #36454F;
+$neutral-dk-100: #4A5A64;
+$neutral-dk-200: #62727B;
+$neutral-dk-300: #2E3840;
 
-$warning-000: #d69e2e;
-$warning-100: #ecc94b;
-$warning-200: #f6e05e;
-$warning-300: #faf089;
+$accent-000: #FFD700;
+$accent-100: lighten($accent-000, 15%);
+$accent-200: darken($accent-000, 15%);
+$accent-300: darken($accent-000, 30%);
 
-$success-000: #2f855a;
-$success-100: #38a169;
-$success-200: #48bb78;
-$success-300: #68d391;
+$error-000: #FF6347;
+$error-100: lighten($error-000, 15%);
+$error-200: darken($error-000, 15%);
+$error-300: darken($error-000, 30%);
 
-$white: #ffffff;
-$black: #000000;
+$warning-000: #FF8C00;
+$warning-100: lighten($warning-000, 15%);
+$warning-200: darken($warning-000, 15%);
+$warning-300: darken($warning-000, 30%);
 
-$body-background-color: $white;
-$sidebar-color: $primary-200;
+$success-000: #32CD32;
+$success-100: lighten($success-000, 15%);
+$success-200: darken($success-000, 15%);
+$success-300: darken($success-000, 30%);
+
+$white: #fff;
+
+$body-background-color: $neutral-lt-000;
+$sidebar-color: $neutral-lt-100;
 $search-background-color: $white;
-$table-background-color: $secondary-200;
-$code-background-color: $tertiary-300;
-$feedback-color: $primary-100;
+$table-background-color: $white;
+$code-background-color: $neutral-lt-100;
+$feedback-color: darken($sidebar-color, 10%);
 
-$body-text-color: $black;
-$body-heading-color: $accent-000;
-$search-result-preview-color: $tertiary-000;
-$nav-child-link-color: $accent-100;
-$link-color: $accent-000;
-$btn-primary-color: $primary-000;
-$base-button-color: $secondary-100;
+$body-text-color: $neutral-dk-000;
+$body-heading-color: $neutral-dk-300;
+$search-result-preview-color: $neutral-dk-000;
+$nav-child-link-color: $neutral-dk-000;
+$link-color: $primary-000;
+$btn-primary-color: $primary-300;
+$base-button-color: $neutral-lt-200;
 
 $spacing-unit: 1rem;
 
@@ -97,28 +105,4 @@ $sp-6: map-get($spacers, sp-6);
 $sp-7: map-get($spacers, sp-7);
 $sp-8: map-get($spacers, sp-8);
 $sp-9: map-get($spacers, sp-9);
-$sp-10: map-get($spacers, sp-10);
-
-$border: 1px solid;
-$border-radius: 0.25rem;
-$border-color: $tertiary-100;
-
-$gutter-spacing: $sp-6;
-$gutter-spacing-sm: $sp-4;
-$nav-width: 16.5rem;
-$nav-width-md: 15.5rem;
-$nav-list-item-height: $sp-6;
-$nav-list-item-height-sm: $sp-8;
-$nav-list-expander-right: true;
-$content-width: 50rem;
-$header-height: 3.75rem;
-$search-results-width: $content-width - $nav-width;
-$transition-duration: 400ms;
-
-$media-queries: (
-  xs: 20em,
-  sm: 31.25em,
-  md: 50em,
-  lg: 66.5em,
-  xl: 87.5em,
-);
+$sp-10: map
