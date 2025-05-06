@@ -3,3 +3,7 @@
 $body-background-color: variables.$primary-000 !default;
 $sidebar-color: variables.$primary-300;
 $body-text-color: variables.$neutral-lt-000 !default;
+
+$link-color: #60557e !default;
+$link-hover-color: darken(#60557e, 10%) !default;
+$link-active-color: darken(#60557e, 20%) !default;
