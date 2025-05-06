@@ -65,7 +65,7 @@ $success-300: darken($success-000, 30%);
 
 $white: #fff;
 
-$body-background-color: $neutral-lt-000;
+$body-background-color: mix(white, $sidebar-color, 85%);
 $sidebar-color: #cde0e8; 
 $sidebar-text-color: #001924; 
 $search-background-color: $white;
