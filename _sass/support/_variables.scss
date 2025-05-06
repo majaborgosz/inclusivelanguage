@@ -109,4 +109,11 @@ $search-results-width: $content-width - $nav-width !default;
 $transition-duration: 400ms;
 
 $media-queries: (
-  xs: 20em)
+  xs: 20em,
+  sm: 31.25em,
+  md: 50em,
+  lg: 66.5em,
+  xl: 87.5em,
+) !default;
+
+$base-button-color: #007bff !default;
