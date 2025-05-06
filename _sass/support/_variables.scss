@@ -61,6 +61,10 @@ $body-background-color: $secondary-000 !default;
 $sidebar-color: $primary-300 !default;
 $body-text-color: $white !default;
 
+$link-color: lighten($sidebar-color, 10%) !default; 
+$link-hover-color: lighten($link-color, 10%) !default; 
+$link-active-color: darken($link-color, 10%) !default; 
+
 $spacing-unit: 1rem !default;
 
 $spacers: (
@@ -105,15 +109,4 @@ $search-results-width: $content-width - $nav-width !default;
 $transition-duration: 400ms;
 
 $media-queries: (
-  xs: 20em,
-  sm: 31.25em,
-  md: 50em,
-  lg: 66.5em,
-  xl: 87.5em,
-) !default;
-
-$base-button-color: #007bff !default;
-$link-color: #5f7e92; 
-$link-hover-color: lighten($link-color, 10%); 
-$link-active-color: darken($link-color, 10%);
-
+  xs: 20em
